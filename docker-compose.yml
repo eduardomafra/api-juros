@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  api.granito.interestcalculator:
+    image: ${DOCKER_REGISTRY-}apigranitointerestcalculator
+    build:
+      context: .
+      dockerfile: API.Granito.InterestCalculator/Dockerfile
+
+  api.granito.interestrate:
+    image: ${DOCKER_REGISTRY-}apigranitointerestrate
+    build:
+      context: .
+      dockerfile: API.Granito.InterestRate/Dockerfile

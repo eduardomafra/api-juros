@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Granito.InterestCalculator", "API.Granito.InterestCalculator\API.Granito.InterestCalculator.csproj", "{628EF6C2-F935-494F-831C-42184CD29030}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Granito.InterestRate", "API.Granito.InterestRate\API.Granito.InterestRate.csproj", "{5F6B3F3B-A791-480D-A317-342243DE0E3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Granito.Utilities", "API.Granito.Utilities\API.Granito.Utilities.csproj", "{D2643FDA-3E8E-4C49-ACA0-C4D4FAC68CB5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A3F92CEF-D040-443D-86FC-6F188DC3BB05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{628EF6C2-F935-494F-831C-42184CD29030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628EF6C2-F935-494F-831C-42184CD29030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628EF6C2-F935-494F-831C-42184CD29030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628EF6C2-F935-494F-831C-42184CD29030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6B3F3B-A791-480D-A317-342243DE0E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6B3F3B-A791-480D-A317-342243DE0E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6B3F3B-A791-480D-A317-342243DE0E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6B3F3B-A791-480D-A317-342243DE0E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2643FDA-3E8E-4C49-ACA0-C4D4FAC68CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2643FDA-3E8E-4C49-ACA0-C4D4FAC68CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2643FDA-3E8E-4C49-ACA0-C4D4FAC68CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2643FDA-3E8E-4C49-ACA0-C4D4FAC68CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F92CEF-D040-443D-86FC-6F188DC3BB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F92CEF-D040-443D-86FC-6F188DC3BB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F92CEF-D040-443D-86FC-6F188DC3BB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F92CEF-D040-443D-86FC-6F188DC3BB05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67EE1128-6B64-4553-BF5E-B34036D58588}
+	EndGlobalSection
+EndGlobal

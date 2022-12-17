@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/API.Granito.InterestCalculator/bin/Debug/net6.0
+/API.Granito.InterestCalculator/obj
+/API.Granito.InterestRate/bin/Debug/net6.0
+/API.Granito.InterestRate/obj
+/API.Granito.Utilities/bin/Debug/net6.0
+/API.Granito.Utilities/obj
+/bin/Debug
+/obj
+/API.Granito.InterestRate/API.Granito.InterestRate.csproj.user
+/API.Granito.InterestCalculator/API.Granito.InterestCalculator.csproj.user
