@@ -48,15 +48,10 @@ namespace API.Granito.InterestCalculator.Controllers
                 double interestRate = await _interestRateService.GetInterestRate();
                 var result = _interestCalculator.CalculateInterest(valorInicial, meses, interestRate);
                 return Ok(result);
-                //return Ok(new CalculatedInterestResponseDTO()
-                //{
-                //    ValueWithInterest = result
-                //});
             }
             catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao processar a requisição");
             }
 
         }
