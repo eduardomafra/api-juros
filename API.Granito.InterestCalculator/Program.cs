@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "API Granito - Calculador de juros",
+        Title = "API Granito - Calculadora de juros",
         Description = "API desenvolvida para o processo seletivo da Granito Pagamentos.",
         Contact = new OpenApiContact
         {
