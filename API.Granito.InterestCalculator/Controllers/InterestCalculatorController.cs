@@ -51,7 +51,8 @@ namespace API.Granito.InterestCalculator.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                _logger.LogError(ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao processar a requisição");
             }
 
         }

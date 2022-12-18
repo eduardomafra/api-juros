@@ -21,7 +21,7 @@ builder.Services.AddSwaggerGen(options =>
         Contact = new OpenApiContact
         {
             Name = "Eduardo Mafra",
-            Url = new Uri("https://github.com/eduardomafra/")
+            Url = new Uri("https://github.com/eduardomafra/api-juros-granito")
         }
     });
 
