@@ -1,6 +1,6 @@
 # Rodando via Docker
 
-Para executar o projeto via docker basta executar os seguintes comandos na pasta raíz
+Para executar o projeto via docker basta executar os seguintes comandos na pasta raÃ­z
 
 ```bash
 docker-compose build
@@ -8,7 +8,7 @@ docker-compose build
 docker-compose up
 ```
 
-Caso rode o comando no Linux é necessário alterar a opção InterestRateAPIUrl do arquivo appsettings.json do projeto API.Granito.InterestCalculator da seguinte forma:
+Caso rode o comando no Linux Ã© necessÃ¡rio alterar a opÃ§Ã£o InterestRateAPIUrl do arquivo appsettings.json do projeto API.Granito.InterestCalculator da seguinte forma:
 
 ```json
 "APISettings": {
@@ -18,11 +18,11 @@ Caso rode o comando no Linux é necessário alterar a opção InterestRateAPIUrl do 
 
 ## Rodando via IIS Express
 
-Para executar o projeto via IIS Express é necessário ir nas propriedades da solution, marcar a opção "Multiple startup projects" e selecionar "Start" para os projetos API.Granito.InterestCalculator e API.Granito.InterestRate.
+Para executar o projeto via IIS Express Ã© necessÃ¡rio ir nas propriedades da solution, marcar a opÃ§Ã£o "Multiple startup projects" e selecionar "Start" para os projetos API.Granito.InterestCalculator e API.Granito.InterestRate.
 
 ![exemplo](https://i.imgur.com/deE0Flb.png)
 
-Também é preciso alterar a opção InterestRateAPIUrl do arquivo appsettings.json do projeto API.Granito.InterestCalculator da seguinte forma:
+Ã‰ preciso alterar a opÃ§Ã£o InterestRateAPIUrl do arquivo appsettings.json do projeto API.Granito.InterestCalculator da seguinte forma:
 
 ```json
 "APISettings": {
@@ -32,8 +32,8 @@ Também é preciso alterar a opção InterestRateAPIUrl do arquivo appsettings.json 
 
 ## URLs
 
-O projeto se encontra hospedado em um servidor e é possível acessá-lo pelas seguintes URLs:
+O projeto se encontra hospedado em um servidor e Ã© possÃ­vel acessÃ¡-lo pelas seguintes URLs:
 
-[API de cálculo de juros](http://144.22.128.149:5001/swagger/index.html)
+[API de cÃ¡lculo de juros](http://144.22.128.149:5001/swagger/index.html)
 
 [API de taxa de juros](http://144.22.128.149:4001/swagger/index.html)
