@@ -1,9 +1,11 @@
 # Rodando via Docker
 
-Para executar o projeto via docker basta executar o seguinte comando na pasta raíz
+Para executar o projeto via docker basta executar os seguintes comandos na pasta raíz
 
 ```bash
-docker compose
+docker-compose build
+
+docker-compose up
 ```
 
 ## Rodando via IIS Express
