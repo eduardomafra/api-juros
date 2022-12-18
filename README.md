@@ -8,7 +8,7 @@ docker-compose build
 docker-compose up
 ```
 
-Caso rode o comando no Linux é necessário alterar a opção InterestRateAPIUrl do arquivo appsettings.json do projeto API.Granito.InterestCalculator da seguinte forma:
+Caso rode o comando no Linux é necessário alterar a configuração InterestRateAPIUrl do arquivo appsettings.json do projeto API.Granito.InterestCalculator da seguinte forma:
 
 ```json
 "APISettings": {
@@ -22,7 +22,7 @@ Para executar o projeto via IIS Express é necessário ir nas propriedades da so
 
 ![exemplo](https://i.imgur.com/deE0Flb.png)
 
-É preciso alterar a opção InterestRateAPIUrl do arquivo appsettings.json do projeto API.Granito.InterestCalculator da seguinte forma:
+É preciso alterar a configuração InterestRateAPIUrl do arquivo appsettings.json do projeto API.Granito.InterestCalculator da seguinte forma:
 
 ```json
 "APISettings": {
