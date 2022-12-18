@@ -8,6 +8,7 @@ namespace API.Granito.Utilities.Calculator
 {
     public class InterestCalculator : IInterestCalculator
     {
+        public InterestCalculator() { }
         public decimal CalculateInterest(decimal value, int months, double interestRate)
         {
             var power = Math.Pow((1 + interestRate), months);

@@ -1,7 +1,7 @@
-﻿using API.Granito.InterestCalculator.DTOs;
-using API.Granito.Utilities.Calculator;
+﻿using API.Granito.Utilities.Calculator;
 using API.Granito.Utilities.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace API.Granito.InterestCalculator.Controllers
 {
@@ -42,18 +42,20 @@ namespace API.Granito.InterestCalculator.Controllers
 
             if (meses <= 0)
                 return BadRequest(@"Parâmetro ""meses"" inválido");
-
+                        
             try
             {
                 double interestRate = await _interestRateService.GetInterestRate();
                 var result = _interestCalculator.CalculateInterest(valorInicial, meses, interestRate);
-                return Ok(new CalculatedInterestResponseDTO()
-                {
-                    ValueWithInterest = result
-                });
+                return Ok(result);
+                //return Ok(new CalculatedInterestResponseDTO()
+                //{
+                //    ValueWithInterest = result
+                //});
             }
             catch (Exception ex)
             {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao processar a requisição");
             }
 

@@ -24,4 +24,8 @@
     <ProjectReference Include="..\API.Granito.Utilities\API.Granito.Utilities.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<InternalsVisibleTo Include="$(AssemblyName).Tests"/>
+	</ItemGroup>
+
 </Project>

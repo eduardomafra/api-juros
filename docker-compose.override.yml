@@ -4,7 +4,7 @@ services:
   api.granito.interestcalculator:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_URLS=http://+:80
     ports:
       - "5001:80"
       - "5000:443"
@@ -14,7 +14,7 @@ services:
   api.granito.interestrate:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_URLS=http://+:80
     ports:
       - "4001:80"
       - "4000:443"

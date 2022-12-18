@@ -13,3 +13,5 @@
 /obj
 /API.Granito.InterestRate/API.Granito.InterestRate.csproj.user
 /API.Granito.InterestCalculator/API.Granito.InterestCalculator.csproj.user
+/API.Granito.Tests/obj
+/API.Granito.Tests/bin/Debug/net6.0

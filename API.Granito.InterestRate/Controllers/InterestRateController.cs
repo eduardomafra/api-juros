@@ -11,6 +11,8 @@ namespace API.Granito.InterestRate.Controllers
     {
         private readonly ILogger<InterestRateController> _logger;
 
+        private const double INTEREST_RATE = 0.01;
+
         public InterestRateController(ILogger<InterestRateController> logger)
         {
             _logger = logger;
@@ -25,7 +27,7 @@ namespace API.Granito.InterestRate.Controllers
         [Route("/taxadejuros")]
         public async Task<IActionResult> GetRate()
         {
-            return Ok(0.01);
+            return Ok(INTEREST_RATE);
         }
     }
 }
